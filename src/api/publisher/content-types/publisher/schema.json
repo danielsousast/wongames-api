@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publishers",
+  "info": {
+    "singularName": "publisher",
+    "pluralName": "publishers",
+    "displayName": "publisher"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name",
+      "required": true
+    }
+  }
+}
