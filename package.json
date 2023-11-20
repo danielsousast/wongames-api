@@ -16,11 +16,13 @@
     "@strapi/plugin-graphql": "^4.15.4",
     "@strapi/plugin-i18n": "4.15.4",
     "@strapi/plugin-users-permissions": "4.15.4",
-    "@strapi/strapi": "4.15.4",
+    "@strapi/strapi": "4.12.5",
+    "jsdon": "^0.1.15",
     "pg": "8.8.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
+    "slugify": "^1.6.6",
     "styled-components": "5.3.3"
   },
   "author": {
